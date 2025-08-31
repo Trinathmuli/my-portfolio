@@ -1,0 +1,88 @@
+* { margin: 0;
+   padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; }
+
+
+/* Header */
+header { background: #333;
+   color: #fff; 
+   padding: 15px 30px; 
+   position: fixed;
+    width: 100%; top: 0; }
+header nav { display: flex;
+   justify-content:space-between;
+    align-items: center; }
+header ul { list-style: none; 
+  display: flex; }
+header ul li { margin-left: 20px; }
+header ul li a { color: #fff; 
+  text-decoration: none;
+   transition: 0.3s; }
+header ul li a:hover { color: #df8f0f; }
+
+/* Hero Section with Background Image */
+.hero { 
+  height: 100vh; 
+  background: url("/images/background.jpg/back1.png") ; 
+  display: flex; 
+  justify-content: center;
+   align-items: center;
+    text-align: center; 
+  color: #cd4e4e; 
+}
+.hero-content { background: rgba(0,0,0,0.6);
+   padding: 30px;
+    border-radius: 10px; }
+.hero h1 { font-size: 3rem; }
+.hero span { color: #f39c12; }
+.hero .btn { display: inline-block;
+   margin-top: 20px;
+    padding: 10px 20px;
+     background: #f39c12;
+      color: #fff; text-decoration: none;
+       border-radius: 5px; }
+
+/* About */
+#about { padding: 100px 20px;
+   text-align: center; }
+.profile-pic { width: 150px;
+   height: 150px;
+    border-radius: 50%;
+     margin: 20px 0; }
+
+/* Projects */
+#projects {  padding: 50px 20px;
+   text-align: center; }
+.projects-container { display: flex; 
+  justify-content: center;
+   gap: 20px; 
+   flex-wrap: wrap; }
+.project-card { background: #eee; 
+  padding: 10px;
+   border-radius: 8px;
+    width: 200px; }
+.project-card img { width: 100%;
+   border-radius: 8px; }
+
+/* Contact */
+#contact { padding: 50px 20px;
+   text-align: center; }
+form input, form textarea { width: 35%;
+   padding: 10px;
+    margin: 10px 0;
+     border: 1px solid #ccc; 
+     border-radius: 5px; }
+form button { padding: 10px 20px;
+   background: #333; color: #fff; border: none; 
+   border-radius: 5px;
+    cursor: pointer;
+     align-self: flex-start; }
+form button:hover { background: #a36707; }
+
+/* Footer */
+footer { background: #333;
+   color: #fff;
+    padding: 20px;
+     text-align: center;
+      margin-top: 20px; }
